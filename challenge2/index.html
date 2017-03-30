@@ -1,0 +1,94 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
+    <style>
+        body{
+            background: #333;
+            font-family: sans-serif;
+        }
+        .canvas{
+            position: absolute;
+            background: white;
+            border: solid 1px #ccc;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+        }
+        .element{
+            position: absolute;
+        }
+        .control{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: #f1f1f1;
+            padding: 10px;
+            border: solid 1px #ccc;
+            min-width: 100px;
+            text-align: center;
+            cursor: default;
+        }
+        .loader{
+            background: none;
+            text-align: left;
+            justify-content: center;
+            cursor: default;
+            position: absolute;
+            top: 10px;
+            left: 120px;
+        }
+        .renderer{
+            background: #eaeaea;
+            border: solid 1px #bdb9b9;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #a7a7a7;
+            cursor: pointer;
+        }
+        .close{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: none;
+            color: #000;
+            padding-top: 1px;
+            border-radius: 8px;
+            height: 16px;
+            width: 16px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .close:hover{
+            background: #FF6258;
+            color: #ffffff;
+        }
+        .search {
+            height: 20px;
+            position: absolute;
+            right: 90px;
+            padding: 5px;
+            height: 30px;
+            text-align: right;
+            font-size: 20px;
+            color: #888;
+        }
+        .next,.prev{
+            background: white;
+            margin: 5px;
+            height: 30px;
+            border: solid 1px #ccc;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var app = new App();
+    </script>
+</body>
+</html>

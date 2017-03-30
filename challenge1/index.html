@@ -1,0 +1,68 @@
+<html>
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
+
+    <style>
+        body{
+            background: #333;
+            font-family: sans-serif;
+        }
+        .canvas{
+            position: absolute;
+            background: white;
+            border: solid 1px #ccc;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+        }
+        .element{
+            position: absolute;
+        }
+        .control{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: #f1f1f1;
+            padding: 10px;
+            border: solid 1px #ccc;
+            min-width: 100px;
+            text-align: center;
+            cursor: default;
+        }
+        .simplebox{
+            background: lightblue;
+            border: solid 1px #333;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .close{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: none;
+            color: #000;
+            padding-top: 1px;
+            border-radius: 8px;
+            height: 16px;
+            width: 16px;
+            font-weight: bold;
+            text-align: center;
+            cursor: default;
+            font-size: 12px;
+        }
+        .close:hover{
+            background: #FF6258;
+            color: #ffffff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script>
+        var app = new App();
+    </script>
+</body>
+</html>
