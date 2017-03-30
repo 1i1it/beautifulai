@@ -1,0 +1,2 @@
+# beautifulai
+beautifulai first challenge
